@@ -1,0 +1,31 @@
+// Colors
+$sol-color-blood-orange:  #fe5000;
+$sol-color-greyish-brown: #4f4141;
+$sol-color-warm-grey:     #8d7f7f;
+$sol-color-light-yellow:  #fec956;
+$sol-color-pink:          #ff346a;
+$sol-color-blue:          #54b7eb;
+$sol-color-true-white:    #ffffff;
+$sol-color-white:         #f3f3f3;
+$sol-color-white-two:     #eae1e1;
+$sol-color-light-pink:    #ffdccc;
+$sol-color-grey:          #e1d5d5;
+$sol-color-dark-grey:     #d8d8d8;
+
+
+//Highlight div
+.bd-highlight {
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.15);
+}
+
+$height: 100;
+
+@while $height < 600 {
+  .hp-#{$height} {
+    height: $height * 1px
+  }
+
+  $height: $height + 100
+}
+

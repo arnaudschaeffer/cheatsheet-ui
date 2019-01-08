@@ -1,0 +1,18 @@
+.square-container {
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+}
+
+.rectangle-16-9-container {
+  width: 100%;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.shape-element {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}

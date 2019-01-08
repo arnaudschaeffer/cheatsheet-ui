@@ -1,0 +1,54 @@
+.image-center-width-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+
+  .image-center-width {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: auto !important;
+  }
+}
+
+.image-center-height-container {
+  position: relative;
+  overflow: hidden;
+
+  .image-center-height {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: auto !important;
+  }
+}
+
+.image-center-container {
+  position: relative;
+  overflow: hidden;
+
+  .image-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: auto !important;
+    height: auto !important;
+  }
+}
+
+.image-fit-width {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  margin:auto;
+}
+
+.image-fit-height {
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  margin:auto;
+}

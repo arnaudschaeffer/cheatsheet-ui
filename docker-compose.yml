@@ -1,0 +1,5 @@
+compass:
+  image: antonienko/compass-watch
+  command: watch --poll /src/compass
+  volumes:
+    - ./src:/src

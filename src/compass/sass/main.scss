@@ -1,0 +1,33 @@
+// Required by bootstrap
+@import "vendor/bootstrap/scss/functions";
+@import "vendor/bootstrap/scss/variables";
+@import "vendor/bootstrap/scss/mixins";
+
+// Optionnal
+@import "vendor/bootstrap/scss/alert";
+@import "vendor/bootstrap/scss/buttons";
+@import "vendor/bootstrap/scss/card";
+@import "vendor/bootstrap/scss/carousel";
+@import "vendor/bootstrap/scss/close";
+@import "vendor/bootstrap/scss/dropdown";
+@import "vendor/bootstrap/scss/forms";
+@import "vendor/bootstrap/scss/grid";
+@import "vendor/bootstrap/scss/input-group";
+@import "vendor/bootstrap/scss/images";
+@import "vendor/bootstrap/scss/modal";
+@import "vendor/bootstrap/scss/nav";
+@import "vendor/bootstrap/scss/popover";
+@import "vendor/bootstrap/scss/progress";
+@import "vendor/bootstrap/scss/reboot";
+@import "vendor/bootstrap/scss/transitions";
+@import "vendor/bootstrap/scss/type";
+@import "vendor/bootstrap/scss/utilities";
+@import "vendor/bootstrap/scss/tooltip";
+
+// Partials
+@import "partials/core";
+@import "partials/color";
+@import "partials/fonts";
+@import "partials/images";
+@import "partials/shape";
+
